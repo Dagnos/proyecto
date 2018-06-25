@@ -9,7 +9,7 @@ const peliculasSchema  = new Schema({
 });
 
 const peliculasModel = mongoose.model('peliculas', peliculasSchema);
-
+//Esta es la parte del API
 module.exports = {
   create: (req,res,next)=>{
     const pelicula = new peliculasModel({
