@@ -29,3 +29,5 @@ mongoose.Promise = global.Promise;
 
 app.listen(port);
 console.log('La magia sucede en el puerto ' + port);
+
+///esta parte del programa llama a las funciones
