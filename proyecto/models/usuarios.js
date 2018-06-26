@@ -41,7 +41,7 @@ module.exports = {
             count: docs.length,
             data: docs.map(doc=>{
               return{
-                ...doc
+                ...doc["_doc"]
               };
             })
           };
