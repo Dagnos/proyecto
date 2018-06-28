@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  nombre: 
+  año: 
+  synopsis: 
+  categoria: 
+  calidad: 
+  url: 
+
+two:
+  nombre: 
+  año: 
+  synopsis: 
+  categoria: 
+  calidad: 
+  url: 
