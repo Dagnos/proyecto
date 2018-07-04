@@ -25,7 +25,7 @@ module.exports = {
         res.status(200).json({
           message: 'pelicula creada con exito',
           data: {
-            ...result
+            ...result["_doc"]
           }
         });
       })

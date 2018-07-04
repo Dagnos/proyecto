@@ -21,7 +21,7 @@ module.exports = {
         res.status(200).json({
           message: 'usuario creado con exito',
           data: {
-            ...result
+            ...result["_doc"]
           }
         });
       })

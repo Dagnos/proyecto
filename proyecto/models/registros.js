@@ -25,7 +25,7 @@ module.exports = {
         res.status(200).json({
           message: 'registro creado con exito',
           data: {
-            ...result
+            ...result["_doc"]
           }
         });
       })
@@ -109,7 +109,7 @@ module.exports = {
         })
         .catch(err =>{
           console.log(err);
-          res.status(500).json({
+          res.status(500).edjson({
             error:err
           });
         });
